@@ -1,0 +1,6 @@
+{
+  "name": "Interview Agent AI",
+  "description": "AI-powered interview platform providing role-specific practice sessions, real-time feedback, and performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

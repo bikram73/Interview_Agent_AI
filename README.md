@@ -9,7 +9,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-3.6%20Flash-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.1.14-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
 
 <p align="center">
   <b>Transform technical and behavioral interview preparation with autonomous AI assessment, real-time speech-to-text dictation, structured rubric scoring, and instant panel hiring recommendations.</b>
@@ -141,6 +141,7 @@ interview-agent-ai/
 ├── .env.example                    # Environment variable template
 ├── .gitignore                      # Git exclusion rules
 ├── ARCHITECTURE.md                 # System architecture, data flow & deployment docs
+├── LICENSE                         # MIT open-source license
 ├── metadata.json                   # Applet configuration & server permissions
 ├── netlify.toml                    # Netlify build, redirects, and function routing
 ├── package.json                    # Dependencies, scripts, and build configuration
@@ -490,7 +491,9 @@ To explore full sample transcripts, simulated user sessions, and evaluation brea
 <a name="license"></a>
 ## 📄 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+This project is licensed under the **MIT License** — see the full [LICENSE](./LICENSE) file for details.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files to deal in the Software without restriction, including the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies.
 
 ---
 

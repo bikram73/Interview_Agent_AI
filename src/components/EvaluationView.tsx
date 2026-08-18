@@ -45,18 +45,32 @@ export const EvaluationView: React.FC<EvaluationViewProps> = ({
     <div className="min-h-screen bg-surface text-on-surface flex flex-col pb-28">
       {/* Top Header */}
       <header className="glass-header sticky top-0 z-20 px-6 py-4 flex items-center justify-between border-b border-outline-variant/40">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3.5">
           <button
             onClick={() => onNavigate('session')}
-            className="w-10 h-10 rounded-xl bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center transition-colors cursor-pointer"
+            className="w-10 h-10 rounded-xl bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center transition-colors cursor-pointer shrink-0"
             title="Back to Session"
           >
             <span className="material-symbols-outlined text-on-surface">arrow_back</span>
           </button>
+
+          {/* App Logo in Title */}
+          <div
+            onClick={() => onNavigate('landing')}
+            className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 shrink-0 cursor-pointer hover:scale-105 transition-transform"
+            title="Interview Agent AI"
+          >
+            <span className="material-symbols-outlined text-xl">computer</span>
+          </div>
+
           <div>
-            <div className="text-xs text-primary font-bold">Answer Evaluation Report</div>
-            <h1 className="text-lg font-bold font-display text-on-surface">
-              Question {currentQuestionIndex + 1} of {totalQuestions}: {question?.category || 'Evaluation'}
+            <div className="text-xs text-primary font-bold flex items-center gap-1.5">
+              <span>Interview Agent AI</span>
+              <span className="text-on-surface-variant">•</span>
+              <span className="text-on-surface-variant font-medium">Answer Evaluation</span>
+            </div>
+            <h1 className="text-lg font-bold font-display text-on-surface leading-tight">
+              Question {currentQuestionIndex + 1} of {totalQuestions}: <span className="text-xs font-normal text-on-surface-variant">{question?.category || 'Evaluation'}</span>
             </h1>
           </div>
         </div>

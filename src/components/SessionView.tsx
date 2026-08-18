@@ -117,16 +117,26 @@ export const SessionView: React.FC<SessionViewProps> = ({
     <div className="min-h-screen bg-surface text-on-surface flex flex-col">
       {/* Top Header & Progress */}
       <header className="glass-header sticky top-0 z-20 px-6 py-4 flex items-center justify-between border-b border-outline-variant/40">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3.5">
           <button
             onClick={() => onNavigate('roles')}
-            className="w-10 h-10 rounded-xl bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center transition-colors cursor-pointer"
+            className="w-10 h-10 rounded-xl bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center transition-colors cursor-pointer shrink-0"
             title="Exit Session"
           >
             <span className="material-symbols-outlined text-on-surface">close</span>
           </button>
+
+          {/* App Logo in Title */}
+          <div
+            onClick={() => onNavigate('landing')}
+            className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 shrink-0 cursor-pointer hover:scale-105 transition-transform"
+            title="Interview Agent AI"
+          >
+            <span className="material-symbols-outlined text-xl">computer</span>
+          </div>
+
           <div>
-            <div className="font-bold font-display text-sm text-on-surface">{roleTitle} Mock Session</div>
+            <div className="font-bold font-display text-sm text-on-surface leading-tight">{roleTitle} Mock Session</div>
             <div className="text-xs text-on-surface-variant">
               Question {currentQuestionIndex + 1} of {totalQuestions} • {currentQ.category || 'Core Concepts'} ({experienceLevel})
             </div>

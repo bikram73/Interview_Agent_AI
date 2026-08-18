@@ -62,7 +62,7 @@
 - 🔍 **Instant Question-by-Question Evaluation**: Deep rubric grading with numerical scores (0–10), key strengths identified, missing technical gaps highlighted, and actionable STAR improvement tips.
 - 💡 **Ideal Response Benchmarking**: Displays key technical concepts and ideal bullet points expected by senior interviewers.
 - 📈 **Executive Hiring Report**: Synthesizes session transcript into an aggregate candidate score (0–100%), hiring recommendation (*Strong Hire*, *Hire - Low Risk*, *Borderline*, *Needs Development*), confidence level, and prioritized study roadmaps.
-- 📥 **Exportable Session Transcripts**: One-click download of full transcripts, score distributions, and AI feedback as a `.txt` evaluation dossier.
+- 📥 **Themed PDF & Text Export**: One-click download of high-resolution PDF evaluation dossiers styled in the exact visual theme of the platform (score cards, gauges, strengths, weaknesses, and full transcripts) alongside plain `.txt` format.
 - 🚀 **Dual Deployment Ready**: Seamless execution across Express.js servers (Docker/Cloud Run) and Serverless Netlify Functions with automated redirects.
 
 ---

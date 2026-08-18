@@ -2,15 +2,21 @@
 
 <div align="center">
 
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-interview--agent--ai.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://interview-agent-ai.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-bikram73%2FInterview__Agent__AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bikram73/Interview_Agent_AI)
+
 [![React 19](https://img.shields.io/badge/React-19.0.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-3.6%20Flash-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.1.14-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Express & Netlify](https://img.shields.io/badge/Deployment-Express%20%7C%20Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <p align="center">
   <b>Transform technical and behavioral interview preparation with autonomous AI assessment, real-time speech-to-text dictation, structured rubric scoring, and instant panel hiring recommendations.</b>
+</p>
+
+<p align="center">
+  🚀 <b>Live Production App:</b> <a href="https://interview-agent-ai.netlify.app/">https://interview-agent-ai.netlify.app/</a> &nbsp;|&nbsp; 💻 <b>GitHub Source:</b> <a href="https://github.com/bikram73/Interview_Agent_AI">https://github.com/bikram73/Interview_Agent_AI</a>
 </p>
 
 </div>
@@ -158,8 +164,8 @@ interview-agent-ai/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/interview-agent-ai.git
-cd interview-agent-ai
+git clone https://github.com/bikram73/Interview_Agent_AI.git
+cd Interview_Agent_AI
 ```
 
 ### 2. Install Dependencies
@@ -192,7 +198,9 @@ npm run start
 ### 6. Netlify Deployment
 This project is pre-configured with `netlify.toml`, `public/_redirects`, and `/netlify/functions`.
 
-1. Push code to your GitHub/GitLab repository.
+🔗 **Live Production Site**: [https://interview-agent-ai.netlify.app/](https://interview-agent-ai.netlify.app/)
+
+1. Push code to your GitHub repository ([`https://github.com/bikram73/Interview_Agent_AI`](https://github.com/bikram73/Interview_Agent_AI)).
 2. In the [Netlify Dashboard](https://app.netlify.com/), click **Add new site** > **Import an existing project**.
 3. Build Settings will auto-detect from `netlify.toml`:
    - **Build command**: `npm run build`

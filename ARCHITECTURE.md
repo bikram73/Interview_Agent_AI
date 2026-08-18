@@ -2,6 +2,9 @@
 
 <div align="center">
 
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-interview--agent--ai.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://interview-agent-ai.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-bikram73%2FInterview__Agent__AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bikram73/Interview_Agent_AI)
+
 [![React 19](https://img.shields.io/badge/React-19.0.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-3.6%20Flash-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)

@@ -140,31 +140,31 @@ export const PerformanceView: React.FC<PerformanceViewProps> = ({
     <div className="min-h-screen bg-surface text-on-surface flex flex-col pb-24">
       {/* Top Header */}
       <header className="glass-header sticky top-0 z-20 px-6 py-4 flex items-center justify-between border-b border-outline-variant/40">
-        <div className="flex items-center gap-3.5">
-          <button
-            onClick={() => onNavigate('landing')}
-            className="w-10 h-10 rounded-xl bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center transition-colors cursor-pointer shrink-0"
-            title="Home"
-          >
-            <span className="material-symbols-outlined text-on-surface">home</span>
-          </button>
-
-          {/* App Logo in Title */}
+        <div className="flex items-center gap-3 sm:gap-4">
+          {/* Brand Logo Component */}
           <div
             onClick={() => onNavigate('landing')}
-            className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 shrink-0 cursor-pointer hover:scale-105 transition-transform"
-            title="Interview Agent AI"
+            className="flex items-center gap-3 cursor-pointer group shrink-0"
+            title="Interview Agent AI Home"
           >
-            <span className="material-symbols-outlined text-xl">computer</span>
+            <div className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 group-hover:scale-105 transition-transform">
+              <span className="material-symbols-outlined text-xl">computer</span>
+            </div>
+            <div className="hidden sm:block">
+              <div className="font-bold font-display text-sm text-on-surface leading-tight">
+                Interview Agent AI
+              </div>
+              <div className="text-[10px] text-primary font-bold uppercase tracking-wider">
+                Smart Coaching Platform
+              </div>
+            </div>
           </div>
 
+          <div className="h-7 w-px bg-outline-variant/40 hidden sm:block" />
+
           <div>
-            <div className="text-xs text-primary font-bold flex items-center gap-1.5">
-              <span>Interview Agent AI</span>
-              <span className="text-on-surface-variant">•</span>
-              <span className="text-on-surface-variant font-medium">Final Candidate Report</span>
-            </div>
-            <h1 className="text-lg font-bold font-display text-on-surface leading-tight">
+            <div className="text-xs text-primary font-bold">Final Candidate Report</div>
+            <h1 className="text-base sm:text-lg font-bold font-display text-on-surface leading-tight">
               {roleTitle} <span className="text-xs font-normal text-on-surface-variant">• {experienceLevel}</span>
             </h1>
           </div>

@@ -174,7 +174,7 @@ export const RolesView: React.FC<RolesViewProps> = ({
             </div>
             <div>
               <div className="font-bold font-display text-on-surface leading-tight">Interview Agent</div>
-              <div className="text-xs text-primary font-semibold">AI Studio Platform</div>
+              <div className="text-xs text-primary font-semibold">Smart Coaching Platform</div>
             </div>
           </div>
 

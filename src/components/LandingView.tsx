@@ -16,7 +16,7 @@ export const LandingView: React.FC<LandingViewProps> = ({ onNavigate }) => {
           <div className="text-center max-w-3xl mx-auto mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-container/20 text-primary border border-primary/20 text-sm font-medium mb-6">
               <span className="material-symbols-outlined text-sm">auto_awesome</span>
-              <span>Powered by Google Gemini AI</span>
+              <span>Powered by Intelligent AI Engine</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display tracking-tight text-on-surface mb-6 leading-tight">
@@ -203,7 +203,7 @@ export const LandingView: React.FC<LandingViewProps> = ({ onNavigate }) => {
           </div>
 
           <p className="text-sm text-on-surface-variant">
-            &copy; {new Date().getFullYear()} Interview Agent AI. Powered by Google Gemini AI.
+            &copy; {new Date().getFullYear()} Interview Agent AI. Powered by Intelligent AI Engine.
           </p>
 
           <div className="flex items-center gap-6 text-sm text-on-surface-variant">

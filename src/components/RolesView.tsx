@@ -78,7 +78,7 @@ export const RolesView: React.FC<RolesViewProps> = ({
       questionsCount: 5,
       avgScore: '86%',
       icon: 'auto_awesome',
-      description: 'LLMs, RAG architecture, prompt engineering, AI agents, embeddings, Gemini/OpenAI APIs, and vector databases.'
+      description: 'LLMs, RAG architecture, prompt engineering, AI agents, embeddings, modern AI APIs, and vector databases.'
     },
     {
       id: 'ml-engineer',
@@ -419,9 +419,9 @@ export const RolesView: React.FC<RolesViewProps> = ({
                 </div>
 
                 <div className="p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/30">
-                  <div className="text-xs text-on-surface-variant font-medium mb-1">AI Gemini Model</div>
+                  <div className="text-xs text-on-surface-variant font-medium mb-1">AI Assessment Engine</div>
                   <p className="text-xs text-on-surface-variant leading-relaxed">
-                    Google Gemini will generate custom role questions and evaluate each answer instantly.
+                    Autonomous AI will generate custom role questions and evaluate each answer instantly.
                   </p>
                 </div>
               </div>

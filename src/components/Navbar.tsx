@@ -22,7 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentScreen, onNavigate }) => 
             Interview Agent AI
           </div>
           <div className="text-[10px] text-primary font-bold uppercase tracking-wider">
-            Powered by Gemini
+            Powered by AI Engine
           </div>
         </div>
       </div>

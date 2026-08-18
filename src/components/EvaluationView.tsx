@@ -86,7 +86,7 @@ export const EvaluationView: React.FC<EvaluationViewProps> = ({
             <div>
               <div className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-secondary-container/30 text-secondary text-xs font-bold mb-2">
                 <span className="material-symbols-outlined text-sm">auto_awesome</span>
-                <span>Gemini Evaluated</span>
+                <span>AI Evaluated</span>
               </div>
               <h2 className="text-2xl font-bold font-display text-on-surface">
                 {score >= 8 ? 'Excellent Answer' : score >= 6 ? 'Good Baseline Response' : 'Needs Technical Refinement'}
@@ -161,7 +161,7 @@ export const EvaluationView: React.FC<EvaluationViewProps> = ({
             <div className="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 soft-shadow space-y-4">
               <h3 className="text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-2 flex items-center gap-2">
                 <span className="material-symbols-outlined text-primary text-base">auto_awesome</span>
-                <span>Gemini Detailed Feedback</span>
+                <span>AI Detailed Feedback</span>
               </h3>
 
               <div className="p-4 rounded-xl bg-secondary-container/20 border border-secondary/30">

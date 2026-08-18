@@ -168,7 +168,7 @@ export const PerformanceView: React.FC<PerformanceViewProps> = ({
               </div>
             </div>
             <div className="text-[11px] text-secondary font-semibold">
-              Gemini AI Evaluated
+              AI Engine Evaluated
             </div>
           </div>
 
@@ -306,7 +306,7 @@ export const PerformanceView: React.FC<PerformanceViewProps> = ({
           <div className="flex items-center justify-between mb-6">
             <div>
               <h3 className="text-xl font-bold font-display text-on-surface">Full Interview Transcript & AI Evaluation</h3>
-              <p className="text-xs text-on-surface-variant">Review all candidate answers alongside Gemini AI scores, strengths, and feedback.</p>
+              <p className="text-xs text-on-surface-variant">Review all candidate answers alongside AI scores, strengths, and feedback.</p>
             </div>
 
             <button

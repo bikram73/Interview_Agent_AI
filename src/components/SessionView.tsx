@@ -177,7 +177,7 @@ export const SessionView: React.FC<SessionViewProps> = ({
             <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="px-3 py-1 rounded-full bg-primary-container/20 text-primary text-xs font-bold flex items-center gap-1">
                 <span className="material-symbols-outlined text-sm">auto_awesome</span>
-                <span>Gemini Generated</span>
+                <span>AI Generated</span>
               </span>
               {currentQ.difficulty && (
                 <span className="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary text-xs font-bold">
@@ -248,7 +248,7 @@ export const SessionView: React.FC<SessionViewProps> = ({
               </div>
               <div className="text-primary font-medium flex items-center gap-1">
                 <span className="material-symbols-outlined text-sm">verified</span>
-                <span>STAR & Technical Accuracy Checked by Gemini</span>
+                <span>STAR & Technical Accuracy Checked by AI</span>
               </div>
             </div>
           </div>
@@ -349,7 +349,7 @@ export const SessionView: React.FC<SessionViewProps> = ({
                 </div>
               </div>
               <div>
-                <div className="text-xs font-bold text-on-surface">Gemini Interview Coach</div>
+                <div className="text-xs font-bold text-on-surface">AI Interview Coach</div>
                 <div className="text-xs text-secondary font-medium flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-secondary pulse-ai" />
                   <span>Ready for Evaluation</span>

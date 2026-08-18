@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ScreenType, InterviewQuestion, InterviewSessionItem } from '../types';
+import { Logo } from './Logo';
 
 interface SessionViewProps {
   onNavigate: (screen: ScreenType) => void;
@@ -128,23 +129,7 @@ export const SessionView: React.FC<SessionViewProps> = ({
           </button>
 
           {/* Brand Logo Component */}
-          <div
-            onClick={() => onNavigate('landing')}
-            className="flex items-center gap-3 cursor-pointer group shrink-0"
-            title="Interview Agent AI Home"
-          >
-            <div className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 group-hover:scale-105 transition-transform">
-              <span className="material-symbols-outlined text-xl">computer</span>
-            </div>
-            <div className="hidden sm:block">
-              <div className="font-bold font-display text-sm text-on-surface leading-tight">
-                Interview Agent AI
-              </div>
-              <div className="text-[10px] text-primary font-bold uppercase tracking-wider">
-                Smart Coaching Platform
-              </div>
-            </div>
-          </div>
+          <Logo onClick={() => onNavigate('landing')} />
 
           <div className="h-7 w-px bg-outline-variant/40 hidden sm:block" />
 

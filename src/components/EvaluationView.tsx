@@ -1,5 +1,6 @@
 import React from 'react';
 import { ScreenType, InterviewQuestion, AnswerEvaluation } from '../types';
+import { Logo } from './Logo';
 
 interface EvaluationViewProps {
   onNavigate: (screen: ScreenType) => void;
@@ -47,23 +48,7 @@ export const EvaluationView: React.FC<EvaluationViewProps> = ({
       <header className="glass-header sticky top-0 z-20 px-6 py-4 flex items-center justify-between border-b border-outline-variant/40">
         <div className="flex items-center gap-3 sm:gap-4">
           {/* Brand Logo Component */}
-          <div
-            onClick={() => onNavigate('landing')}
-            className="flex items-center gap-3 cursor-pointer group shrink-0"
-            title="Interview Agent AI Home"
-          >
-            <div className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 group-hover:scale-105 transition-transform">
-              <span className="material-symbols-outlined text-xl">computer</span>
-            </div>
-            <div className="hidden sm:block">
-              <div className="font-bold font-display text-sm text-on-surface leading-tight">
-                Interview Agent AI
-              </div>
-              <div className="text-[10px] text-primary font-bold uppercase tracking-wider">
-                Smart Coaching Platform
-              </div>
-            </div>
-          </div>
+          <Logo onClick={() => onNavigate('landing')} />
 
           <div className="h-7 w-px bg-outline-variant/40 hidden sm:block" />
 

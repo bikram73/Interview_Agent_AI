@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ScreenType, InterviewConfig } from '../types';
+import { Logo } from './Logo';
 
 interface RolesViewProps {
   onNavigate: (screen: ScreenType) => void;
@@ -168,14 +169,8 @@ export const RolesView: React.FC<RolesViewProps> = ({
       {/* Left Sidebar Navigation */}
       <aside className="w-full lg:w-64 bg-surface-container-low border-r border-outline-variant/40 p-6 flex flex-col justify-between shrink-0">
         <div>
-          <div className="flex items-center gap-3 mb-8 cursor-pointer" onClick={() => onNavigate('landing')}>
-            <div className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md">
-              <span className="material-symbols-outlined">computer</span>
-            </div>
-            <div>
-              <div className="font-bold font-display text-on-surface leading-tight">Interview Agent</div>
-              <div className="text-xs text-primary font-semibold">Smart Coaching Platform</div>
-            </div>
+          <div className="mb-8">
+            <Logo onClick={() => onNavigate('landing')} />
           </div>
 
           <nav className="space-y-1">

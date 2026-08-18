@@ -1,5 +1,6 @@
 import React from 'react';
 import { ScreenType } from '../types';
+import { Logo } from './Logo';
 
 interface NavbarProps {
   currentScreen: ScreenType;
@@ -10,22 +11,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentScreen, onNavigate }) => 
   return (
     <header className="glass-header sticky top-0 z-30 px-4 sm:px-8 py-3.5 flex items-center justify-between border-b border-outline-variant/40 shadow-sm">
       {/* Brand Logo */}
-      <div
-        onClick={() => onNavigate('landing')}
-        className="flex items-center gap-3 cursor-pointer group"
-      >
-        <div className="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center font-bold shadow-md shadow-primary/20 group-hover:scale-105 transition-transform">
-          <span className="material-symbols-outlined text-xl">computer</span>
-        </div>
-        <div>
-          <div className="font-bold font-display text-base text-on-surface leading-tight">
-            Interview Agent AI
-          </div>
-          <div className="text-[10px] text-primary font-bold uppercase tracking-wider">
-            Powered by AI Engine
-          </div>
-        </div>
-      </div>
+      <Logo onClick={() => onNavigate('landing')} />
 
       {/* Screen Switcher Navigation Links */}
       <nav className="hidden md:flex items-center gap-1 bg-surface-container-low p-1.5 rounded-2xl border border-outline-variant/30">
